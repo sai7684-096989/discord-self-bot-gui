@@ -18,7 +18,7 @@ A graphical user interface (GUI) application for a Discord self-bot, built with 
 
 To run this application, you need to have Python and the required dependencies installed on your system.
 
-- **Operating System**: Windows 10 or later (other OSes may work but are untested).
+- **Operating System**: Windows 10 or later (other OSes may work but are untested). Chromebook Will Work So As Other Linux Distributions
 - **Python**: Version 3.10 or later.
 - **Dependencies**:
   - `customtkinter`: For the GUI.
@@ -51,5 +51,7 @@ Follow these steps to set up and run the application on your system.
 ```pip install discord.py```
 ```pip install customtkinter```
 ```pip install discord.py-self customtkinter aiohttp ```
-
+- Now Run
+  ```cd Python```
+  ```python main.py```
 - And Enjoy!
