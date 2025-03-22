@@ -22,7 +22,8 @@ To run this application, you need to have Python and the required dependencies i
 - **Python**: Version 3.10 or later.
 - **Dependencies**:
   - `customtkinter`: For the GUI.
-  - Other dependencies may be required depending on the functionality in `bot.py`, `actions.py`, `premium.py`, and `utility.py` (e.g., `discord.py` for Discord API interactions).
+  - `discord.py`: For Discord API interactions.
+  - Other dependencies may be required depending on the functionality in `bot.py`, `actions.py`, `premium.py`, and `utility.py`.
 - **Internet Connection**: Required for Discord API interactions.
 
 ## Installation
@@ -40,8 +41,15 @@ Follow these steps to set up and run the application on your system.
 - Verify Python is installed by opening a Command Prompt (Windows) or terminal (Mac/Linux) and running:
   ```cmd
   python --version
+  ```
+  ### Install Dependencies
 
-### 3. Run The File
-- Go To Your Command Prompt (windows) or terminal (Mac/Linux) And Run The Following
-```cmd
-python3 -m venv .venv:
+  - Open Up command prompt Or terminal and run
+``` python3 -m venv .venv```
+- afterwards run the following
+```source .venv/bin/activate```
+```pip install discord.py```
+```pip install customtkinter```
+```pip install discord.py-self customtkinter aiohttp ```
+
+- And Enjoy!
